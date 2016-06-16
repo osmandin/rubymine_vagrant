@@ -11,9 +11,18 @@ Steps
 9 Run/Run (or Debug for breakpoints, etc.)
 10 Tools/Vagrant/Halt when done.
 
-
-[1] http://stackoverflow.com/questions/27546471/rubymine-vagrant-rvm
+Screenshots
+===========
 
 ![Vagrant](vagrant.png)
 ![Set Ruby SDK](rubysdk.png)
 ![Edit Configurations](edit_configurations.png)
+
+Notes
+=====
+1 Install debase for debugging. Currently not in gem file.
+2 RubyMine can complain about missing gems. Possible sync issue (possibly to ignore).
+
+References
+==========
+[1] http://stackoverflow.com/questions/27546471/rubymine-vagrant-rvm
