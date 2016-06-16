@@ -25,7 +25,10 @@ Figure 3
 
 Notes
 =====
-1. RubyMine can complain about missing gems. Possible refresh issue (ignore for now).
+The Gemfile does not have a debugger, so RubyMine will alert you when
+you try to run the debugger. Just click on "install debase" when prompted.
+
+RubyMine might complain about other missing gems also due to possible refresh issue.
 
 References
 ==========
