@@ -11,5 +11,5 @@ cd /vagrant
 bundle install
 bundle update
 sudo apt-get -y install nodejs
-sudo chmod -R 777 ruby-2.3.0
+sudo chmod -R 777 /usr/local/rvm/gems/ruby-2.3.0
 echo "Done preparing your box!"
