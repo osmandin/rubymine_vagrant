@@ -5,7 +5,9 @@ Steps
 3. RubyMine/Preferences/Tools/Vagrant (see Figure 1)
 4. Tools/Vagrant/Up
 5. RubyMine/Preferences/Languages & Frameworks/RubySDK & Gems (it will take a while and some remote gems will appear)
-6. Ensure path to remote ruby is remote rvm gem directory, not remote ruby. [1]
+5b. SSH into the box and do a "bundle update" if still missing in /vagrant.
+6. Ensure path to remote ruby is remote rvm gem directory, not remote ruby (/usr/local/rvm/gems/ruby-2.3.0
+).
 7. Make sure the default is remote ruby by clicking on checkbox (see Figure 2)
 8. Run/Edit Configurations/Ruby SDK/Use Other SDK (Select remote SDK as in Figure 3.)
 9. Run/Run (or Debug for debugging, etc. RubyMine would prompt for debase gem install. Click yes.)
@@ -19,6 +21,7 @@ Figure 1
 
 Figure 2
 ![Set Ruby SDK](images/rubysdk.png)
+![Set Ruby Path](images/ruby_path.png)
 
 Figure 3
 ![Edit Configurations](images/edit_configuration.png)

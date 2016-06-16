@@ -8,6 +8,8 @@ source /usr/local/rvm/scripts/rvm
 rvm install 2.1.3
 gem install bundler
 cd /vagrant
+echo "Directory:"
+pwd
 bundle install
 bundle update
 sudo apt-get -y install nodejs

@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
   def hello
-    @message = "Hello"
+    @message = "Hello 2"
   end
 end
