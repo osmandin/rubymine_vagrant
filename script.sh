@@ -10,8 +10,11 @@ gem install bundler
 cd /vagrant
 echo "Directory:"
 pwd
+rvm gemset list
 bundle install
 bundle update
+echo "Path:"
+gem which uglifier
 sudo apt-get -y install nodejs
 sudo chmod -R 777 /usr/local/rvm/gems/ruby-2.3.0
 echo "Done preparing your box!"
