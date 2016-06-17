@@ -25,10 +25,10 @@ b. Make sure the default SDK selected is remote ruby by clicking on checkbox (sh
 7b. Confirm success by visiting localhost:3000/greetings/hello. See Figure 4.
 8. Finally: Tools/Vagrant/Halt (when done).
 
-Figure 1: Enabling Vagrant in RubyMine
+Figure 1: Confirm Vagrant Box Availability
 ![Vagrant](images/vagrant.png)
 
-Figure 2: Setting Remote Ruby
+Figure 2: Set Remote Ruby
 ![Set Ruby Path](images/configure_remote_ruby_interpreter.png)
 
 Figure 2b: Select Remote Ruby
