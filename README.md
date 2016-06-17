@@ -43,9 +43,11 @@ Figure 4: Server Running
 ![Edit Configurations](images/running.png)
 
 
-Notes
-=====
+Debugging
+=========
 The Gemfile does not have a debugger, so RubyMine will alert you when
 you try to run the debugger. Just click on "install debase" when prompted (or update your Gemfile as you see fit).
 
+Notes
+======
 If RubyMine cannot find your gems, it means that it's interacting with a wrong Ruby version on your box.
