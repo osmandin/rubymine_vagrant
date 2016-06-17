@@ -19,3 +19,4 @@
 # custom .gitignore:
 .vagrant/
 .idea/
+.DS_Store
